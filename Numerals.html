@@ -6,11 +6,15 @@
     .altfont {
       font-family: 'LeedsUni', sans-serif;
     }
-    .altfont2 {
+    #altfont {
       font-family: 'Georgia', sans-serif;
     }
     .rotate {
-      transform: rotate(270deg)
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: rotate(270deg);
     }
   </style>
 </head>
@@ -52,8 +56,8 @@
     <br>LLLCXL=-10
     <br>LLLCXLIV=-6
     <br>VVVXIVS=-½
-    <br><span class="altfont2">1</span>=i
-    <br><span class="rotate">VIII</span>=∞
+    <br><span id="altfont">1</span>=i
+    <br><span id="rotate">VIII</span>=∞
   </p>
 </body>
 </html>
